@@ -1,3 +1,6 @@
 *.FCBak
 *.FCStd1
 *.FCStd2
+
+# Private reference material (drawings, third-party models, screenshots)
+reference/
