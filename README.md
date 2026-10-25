@@ -42,12 +42,14 @@ docs/       build notes, wiring and parts lists
 ## Hardware basics
 
 - **Microcontrollers:** ESP32-S3 (native USB) for larger panels, classic ESP32 for smaller ones
-- **Keys:** MX-style tactile switches with printed caps
+- **Keys:** Tactile switches (Apem ADTS6 series) with printed caps, chosen to approach the real ICP key force, which is too heavy for MX-style switches
+- **Rockers and dobber:** Apem ADTS6 tactile switches, a lighter variant
 - **Toggles:** Dailywell 1M-series miniature toggles
-- **Encoders:** Bourns PEC11R
+- **Wheels:** Bourns PDB18 10 kΩ linear potentiometers (absolute position, so they stay in sync with the sim)
+- **Backlight:** Green 3 mm LEDs (Vishay TLHG4400) switched by 2N7000 MOSFETs and dimmed with PWM
 - **Displays:** SSD1322 256×64 OLED for the DED
 
-Full parts lists will live in each panel's `docs/` folder.
+ICP parts are selected but not yet built or tested. Full parts lists will live in each panel's `docs/` folder.
 
 ## Licence
 
